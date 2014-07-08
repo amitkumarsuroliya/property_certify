@@ -1,0 +1,301 @@
+@charset "utf-8";
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #f0eeed;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+h1 {
+	color:#84be19;
+	font-size:18px;
+}
+h2 {
+	color:#000;
+	font-size:15px;
+}
+h3 {
+	color:#84be19;
+	font-size:14px;
+}
+#container {
+	width: 900px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+#header {
+	background: #DDDDDD;
+	width: 900px;
+	height: 224px;
+}
+#header0 {
+	background: #DDDDDD;
+	width: 900px;
+	height: 480px;
+}
+#header .headerbackground {
+	width:898px;
+	height:195px;
+	background:url(../images/headerbackground.jpg) no-repeat left top;
+	border: 1px solid #ccc;
+}
+#header0 .headerbackground {
+	width:898px;
+	height:195px;
+	background:url(../images/headerbackground.jpg) no-repeat left top;
+	border: 1px solid #ccc;
+}
+#bannercontent {
+	height: auto;
+	margin: 20px 0 20px 0;
+	border: 0px solid #ccc;
+}
+#sidebar {
+	float: left;
+	width: 200px;
+	background: #ffffff;
+	margin:2px 0 0 40px;
+}
+#sidebar a, #mainContent a {
+	color:#84be19;
+	font-weight: bold;
+}
+#sidebar1 {
+	float: left;
+	width: 200px;
+	background: #ffffff;
+	margin:14px 0 0 40px;
+}
+#sidebar1 a, #mainContent a {
+	color:#84be19;
+	font-weight: bold;
+}
+#sidecontent {
+	float: left;
+	width: auto;
+	margin:0 0 0 8px;
+	padding:10px 0 10px 0;
+	border: 0px solid #ccc;
+}
+.epc{
+	float: left;
+	width: 180px;
+	background: #ffffff;
+	margin:10px;
+	padding:0;
+}
+.about{
+	float: left;
+	width: 180px;
+	background: #ffffff;
+	margin:10px;
+	padding:0;
+	border: 1px solid #ccc;
+}
+.book_now{
+	float:right;
+	width: 100px;
+	height: auto;
+	margin:-20px 0;
+	padding:0;
+}
+.book_now2{
+	float:right;
+	width: 100px;
+	height: auto;
+	margin: 0px 0;
+	padding:0;
+}
+.areas{
+	float: left;
+	width: 160px;
+	background: #ffffff;
+	margin:10px 7px 0 13px;
+	padding:0;
+}
+.credits {
+	float:center;
+	width:125px;
+	margin:0px auto 10px 15px;
+}
+#mainContent {
+	height: auto;
+	margin: 20px 40px 20px 280px;
+}
+#mainContent0 {
+	height: auto;
+	margin: 2px 40px 20px 280px;
+}
+#mainContent1 {
+	height: auto;
+	margin: 20px 40px 20px 40px;
+}
+#content {
+	width: auto;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+#footer {
+	height:90px;
+	background:url(../images/footerBackground.jpg) repeat-x left top;
+}
+.follow {
+	float:right;
+	width:212px;
+	margin:16px 0 0 20px;
+}
+#footer p {
+	padding-top:28px;
+	margin:0 240px 0 0;
+	text-align:center;
+}
+.footerLink  {
+	color:#292b25;
+	text-decoration:underline;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#navcontainer {
+	width:900px;
+	text-align:center;
+	margin:auto;
+}
+#navcontainer ul {
+	padding: 0;
+	margin: auto 0;
+	background: url(../images/menubackground.gif) repeat-x left top;
+	float: left;
+	width: 100%;
+}
+#navcontainer ul li {
+	display: inline;
+}
+#navcontainer ul li a {
+	color: #84be19;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+	font-size:12px;
+	padding:8px 39px 10px 39px;
+}
+#navcontainer ul li a:hover {
+	background: url(../images/menubackgroundactive.gif) repeat-x left top;
+	color: #fff;
+}
+#navcontainer ul li #current {
+	background: url(../images/menubackgroundactive.gif) repeat-x left top;
+	color: #fff;
+}
+
+.t {background: #ffffff url(../images/dot.gif) 0 0 repeat-x; padding-bottom:5px;}
+.b {background:url(../images/dot.gif) 0 100% repeat-x}
+.l {background:url(../images/dot.gif) 0 0 repeat-y}
+.r {background:url(../images/dot.gif) 100% 0 repeat-y}
+.bl {background:url(../images/bl.gif) 0 100% no-repeat}
+.br {background:url(../images/br.gif) 100% 100% no-repeat}
+.tl {background:url(../images/tl.gif) 0 0 no-repeat}
+.tr {background:url(../images/tr.gif) 100% 0 no-repeat; padding:1px 20px}
+
+.n_t {background: #eeeeee url(../images/n_dot.gif) 0 0 repeat-x; padding-bottom:0;}
+.n_b {background:url(../images/n_dot.gif) 0 100% repeat-x}
+.n_l {background:url(../images/n_dot.gif) 0 0 repeat-y}
+.n_r {background:url(../images/n_dot.gif) 100% 0 repeat-y}
+.n_bl {background:url(../images/n_bl.gif) 0 100% no-repeat}
+.n_br {background:url(../images/n_br.gif) 100% 100% no-repeat}
+.n_tl {background:url(../images/n_tl.gif) 0 0 no-repeat}
+.n_tr {background:url(../images/n_tr.gif) 100% 0 no-repeat; padding:1px 10px; margin-bottom:20px}
+#area1
+{
+  float: left;
+  background: url("../images/area1.jpg") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  margin:10px 7px 0 13px;
+  z-index:1;
+
+}
+#area1:hover
+{
+  float: left;
+  background: url("../images/fee1.gif") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  z-index:2;
+}
+#area2
+{
+  float: left;
+  background: url("../images/area2.jpg") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  margin:10px 7px 0 13px;
+  z-index:1;
+
+}
+#area2:hover
+{
+  float: left;
+  background: url("../images/fee2.gif") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  z-index:2;
+}
+#area3
+{
+  float: left;
+  background: url("../images/area3.jpg") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  margin:10px 7px 0 13px;
+  z-index:1;
+
+}
+#area3:hover
+{
+  float: left;
+  background: url("../images/fee3.gif") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  z-index:2;
+}
+#express
+{
+  float: left;
+  background: url("../images/express.gif") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  margin:10px 7px 0 13px;
+  z-index:1;
+
+}
+#express:hover
+{
+  float: left;
+  background: url("../images/express2.gif") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  z-index:2;
+}
+#free
+{
+  float: left;
+  background: url("../images/free.gif") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  margin:10px 7px 0 13px;
+  z-index:1;
+
+}
+#free:hover
+{
+  float: left;
+  background: url("../images/book_now.jpg") no-repeat 0 0;
+  width: 160px;
+  height: 160px;
+  z-index:2;
+}
